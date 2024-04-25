@@ -1,0 +1,40 @@
+.menu {
+  position: relative; 
+  font-family: Arial, sans-serif;
+}
+
+.hamburguer-icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 0;
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 4px; 
+  overflow: hidden; 
+  max-height: 0; 
+  transition: max-height 0.3s ease; 
+}
+
+.menu-items.open {
+  max-height: 500px; 
+}
+
+.menu-items li {
+  margin-bottom: 10px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #202020; 
+}
+
+.menu-items a:hover {
+  color: #818181; 
+}

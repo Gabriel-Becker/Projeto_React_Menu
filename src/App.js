@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuSanduiche from './Components/MenuSanduiche';
-import './Components/MenuSanduiche.css'
+import MenuHamburguer from './Components/MenuHamburguer';
+import './Components/MenuHamburguer.css'
 
 function App() {
   const menuItems = [
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <MenuSanduiche items={menuItems} />
+      <MenuHamburguer items={menuItems} />
     </div>
   );
 }
